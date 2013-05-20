@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:rotaryunlock="http://schemas.android.com/apk/res/com.android.rotaryunlock">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textColor="?textColorSecondary" android:id="@id/carrier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="?textAppearanceLarge" android:textSize="55.0sp" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@id/carrier" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:layout_below="@id/time" android:layout_centerHorizontal="true" />
+            <View android:id="@id/divider" android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/date" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textColor="?textColorSecondary" android:id="@id/status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:drawablePadding="4.0dip" android:layout_below="@id/divider" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textColor="?textColorSecondary" android:id="@id/status2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:drawablePadding="4.0dip" android:layout_below="@id/status1" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textColor="?textColorSecondary" android:gravity="center" android:id="@id/screenLocked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/status2" android:layout_centerHorizontal="true" />
+            <Button android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" android:layout_below="@id/screenLocked" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <com.alliance.widget.RotarySelector android:orientation="vertical" android:id="@id/rotary" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_main_unlock_charging_0_1" android:maxLevel="2" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_05_1" android:maxLevel="7" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_10_1" android:maxLevel="12" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_15_1" android:maxLevel="17" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_20_1" android:maxLevel="22" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_25_1" android:maxLevel="27" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_30_1" android:maxLevel="32" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_35_1" android:maxLevel="37" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_40_1" android:maxLevel="42" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_45_1" android:maxLevel="47" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_50_1" android:maxLevel="52" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_55_1" android:maxLevel="57" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_60_1" android:maxLevel="62" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_65_1" android:maxLevel="67" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_70_1" android:maxLevel="72" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_75_1" android:maxLevel="77" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_80_1" android:maxLevel="82" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_85_1" android:maxLevel="87" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_90_1" android:maxLevel="92" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_95_1" android:maxLevel="97" />
+    <item android:drawable="@drawable/ic_main_unlock_charging_100_1" android:maxLevel="100" />
+</level-list>

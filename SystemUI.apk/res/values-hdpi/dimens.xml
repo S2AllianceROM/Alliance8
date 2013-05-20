@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_panel_quicksettingbtn_height">119.0dip</dimen>
+</resources>

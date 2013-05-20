@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="QuickSettingButtonAttribute">
+        <item>Wifi</item>
+        <item>Location</item>
+        <item>SilentMode</item>
+        <item>AutoRotate</item>
+        <item>Bluetooth</item>
+        <item>MobileData</item>
+        <item>DormantMode</item>
+        <item>PowerSaving</item>
+        <item>AllShareCast</item>
+        <item>Sync</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="right" android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.DigitalClock android:layout_gravity="right" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/keyguard_lockscreen_status_line_clockfont_top_margin">
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/keyguard_lockscreen_clock_font_size" android:textColor="@color/lockscreen_clock_background" android:ellipsize="none" android:id="@id/timeDisplayBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/keyguard_lockscreen_clock_font_size" android:textColor="@color/lockscreen_clock_foreground" android:ellipsize="none" android:id="@id/timeDisplayForeground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignLeft="@id/timeDisplayBackground" android:layout_alignTop="@id/timeDisplayBackground" />
+    </com.android.internal.widget.DigitalClock>
+    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/label" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/label" android:textColor="@color/safe_mode_text" android:ellipsize="marquee" android:id="@id/alarm_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" android:drawablePadding="4.0dip" />
+    </LinearLayout>
+    <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/keyguard_lockscreen_status_line_font_size" android:ellipsize="marquee" android:layout_gravity="right" android:id="@id/status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" />
+</LinearLayout>

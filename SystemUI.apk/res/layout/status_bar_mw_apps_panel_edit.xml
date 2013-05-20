@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mini_mode_apps_panel_edit" android:background="@drawable/traybar_edit_bg" android:paddingBottom="35.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textAppearance="@style/TextAppearance_EditPanelTitle" android:textColor="#bff0f0f0" android:layout_gravity="center_vertical" android:id="@id/mini_mode_apps_panel_edit_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/SS_MULTI_WINDOW" android:shadowColor="#ff000000" android:shadowDy="-1.0" android:shadowRadius="1.0" />
+        <LinearLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:textAppearance="@style/TextAppearance_SaveAndCancelButton" android:textColor="#ffdcdcdc" android:id="@id/mini_mode_apps_panel_edit_cancel" android:background="@drawable/topmenu_button" android:paddingLeft="5.0dip" android:paddingRight="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@*android:string/cancel" android:drawableLeft="@drawable/ic_menu_cancel" android:drawablePadding="10.0dip" />
+            <Button android:textAppearance="@style/TextAppearance_SaveAndCancelButton" android:textColor="#ffdcdcdc" android:id="@id/mini_mode_apps_panel_edit_done" android:background="@drawable/topmenu_button" android:paddingLeft="5.0dip" android:paddingRight="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:drawableLeft="@drawable/ic_menu_done" android:drawablePadding="10.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:background="@drawable/traybar_edit_2pxline" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:scrollbarSize="100.0dip" android:scrollbarThumbHorizontal="@drawable/scrollbar_handle_vertical" android:scrollbarStyle="outsideOverlay" android:layout_gravity="bottom" android:id="@id/mini_mode_apps_panel_edit_scroller" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_marginBottom="@*android:dimen/system_bar_height" android:maxHeight="280.0dip" android:minWidth="800.0dip" android:minHeight="130.0dip" android:scrollbarDefaultDelayBeforeFade="350" android:fadeScrollbars="true" android:overScrollMode="never">
+        <LinearLayout android:gravity="bottom" android:layout_gravity="top|left|center" android:orientation="vertical" android:id="@id/mini_mode_apps_panel_edit_container" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

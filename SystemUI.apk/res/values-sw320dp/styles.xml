@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

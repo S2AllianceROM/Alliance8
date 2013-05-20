@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.BatteryControllerNotification android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/battery_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="right" android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/battery_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_test" style="@style/Battery_Offset" />
+        <TextView android:id="@id/battery_text_center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_test" style="@style/Battery_Center" />
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.BatteryTextOnly" android:id="@id/battery_text_only" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_test" android:singleLine="true" />
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.BatteryTextOnly_Low" android:id="@id/battery_text_only_low" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_test" android:singleLine="true" />
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.BatteryTextOnly_Plugged" android:id="@id/battery_text_only_plugged" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_test" android:singleLine="true" />
+    </FrameLayout>
+</com.android.systemui.statusbar.policy.BatteryControllerNotification>
