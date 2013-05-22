@@ -3,10 +3,10 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
     <com.android.systemui.statusbar.phone.NotificationWallpaper android:id="@id/notification_wallpaper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/tw_close_handle_underlap">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#00000000" android:layout_marginBottom="@dimen/tw_close_handle_underlap">
         <include android:layout_width="fill_parent" android:layout_height="@dimen/tw_notification_panel_header_height" layout="@layout/tw_status_bar_expanded_header" />
         <TextView android:gravity="center" android:id="@id/emergency_calls_only" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <View android:background="#ff091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/tw_notification_panel_header_height" />
+        <View android:background="#00091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/tw_notification_panel_header_height" />
         <ScrollView android:id="@id/scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/tw_notification_panel_header_line_height" android:overScrollMode="ifContentScrolls">
             <LinearLayout android:orientation="vertical" android:id="@id/scrollCart" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <HorizontalScrollView android:id="@id/quicksetting_scroller" android:visibility="gone" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="@dimen/quick_setting_button_height">
